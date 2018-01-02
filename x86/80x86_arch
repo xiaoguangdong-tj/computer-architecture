@@ -1,0 +1,46 @@
+1. cpu
+1.1 register
+ax/bx/cx/dx/bp/sp/si/di
+cs/ds/ss/es
+eflag
+gdtr/ldtr/idtr/tr
+cr0/cr1/cr2/cr3
+
+1.2 gdt/ldt/idt/tr
+1.2.1 gdt
+8192 entry * 8B entry size = 64KB = 16 pages
+
+1.2.2 ldt
+8192 entry * 8B entry size = 64KB = 16 pages
+
+1.2.3 idt
+256 entry * 8B entry size = 2KB = 1/2 pages
+
+1.2.4 tr
+tss 104B
+
+1.2.5 segment descriptor/system and gate descriptor
+
+
+
+1.2.6 selector of the descriptor
+
+
+
+2. bus
+2.1 data bus
+2.2 control bus
+2.3 address bus
+
+3. memory
+3.1 memory word 
+3.2 endian
+big endian
+little endian: 80x86/arm/....
+
+
+
+
+
+
+
